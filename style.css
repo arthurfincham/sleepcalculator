@@ -1,0 +1,323 @@
+@font-face {
+  font-family: "ChunkFiveRegular";
+  src: url("ChunkFive-Regular.otf");
+}
+
+#wrapper {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+
+.content {
+  position: relative;
+  z-index: 100;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -100;
+
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+#background-wrap {
+  bottom: 0;
+  left: 0;
+  padding-top: 50px;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
+
+/* KEYFRAMES */
+
+@-webkit-keyframes animateCloud {
+  0% {
+    margin-left: -1000px;
+  }
+
+  100% {
+    margin-left: 100%;
+  }
+}
+
+@-moz-keyframes animateCloud {
+  0% {
+    margin-left: -1000px;
+  }
+
+  100% {
+    margin-left: 100%;
+  }
+}
+
+@keyframes animateCloud {
+  0% {
+    margin-left: -1000px;
+  }
+
+  100% {
+    margin-left: 100%;
+  }
+}
+
+/* ANIMATIONS */
+
+.x1 {
+  -webkit-animation: animateCloud 35s linear infinite;
+  -moz-animation: animateCloud 35s linear infinite;
+  animation: animateCloud 35s linear infinite;
+
+  -webkit-transform: scale(0.65);
+  -moz-transform: scale(0.65);
+  transform: scale(0.65);
+}
+
+.x2 {
+  -webkit-animation: animateCloud 20s linear infinite;
+  -moz-animation: animateCloud 20s linear infinite;
+  animation: animateCloud 20s linear infinite;
+
+  -webkit-transform: scale(0.3);
+  -moz-transform: scale(0.3);
+  transform: scale(0.3);
+}
+
+.x3 {
+  -webkit-animation: animateCloud 30s linear infinite;
+  -moz-animation: animateCloud 30s linear infinite;
+  animation: animateCloud 30s linear infinite;
+
+  -webkit-transform: scale(0.5);
+  -moz-transform: scale(0.5);
+  transform: scale(0.5);
+}
+
+.x4 {
+  -webkit-animation: animateCloud 18s linear infinite;
+  -moz-animation: animateCloud 18s linear infinite;
+  animation: animateCloud 18s linear infinite;
+
+  -webkit-transform: scale(0.4);
+  -moz-transform: scale(0.4);
+  transform: scale(0.4);
+}
+
+.x5 {
+  -webkit-animation: animateCloud 25s linear infinite;
+  -moz-animation: animateCloud 25s linear infinite;
+  animation: animateCloud 25s linear infinite;
+
+  -webkit-transform: scale(0.55);
+  -moz-transform: scale(0.55);
+  transform: scale(0.55);
+}
+
+/* OBJECTS */
+
+.cloud {
+  background: #fff;
+  background: -moz-linear-gradient(top, #fff 5%, #f1f1f1 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(5%, #fff), color-stop(100%, #f1f1f1));
+  background: -webkit-linear-gradient(top, #fff 5%, #f1f1f1 100%);
+  background: -o-linear-gradient(top, #fff 5%, #f1f1f1 100%);
+  background: -ms-linear-gradient(top, #fff 5%, #f1f1f1 100%);
+  background: linear-gradient(top, #fff 5%, #f1f1f1 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff', endColorstr='#f1f1f1', GradientType=0);
+
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  border-radius: 100px;
+
+  -webkit-box-shadow: 0 8px 5px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 8px 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 8px 5px rgba(0, 0, 0, 0.1);
+
+  height: 120px;
+  position: relative;
+  width: 350px;
+}
+
+.cloud:after,
+.cloud:before {
+  background: #fff;
+  content: '';
+  position: absolute;
+  z-indeX: -1;
+}
+
+.cloud:after {
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  border-radius: 100px;
+
+  height: 100px;
+  left: 50px;
+  top: -50px;
+  width: 100px;
+}
+
+.cloud:before {
+  -webkit-border-radius: 200px;
+  -moz-border-radius: 200px;
+  border-radius: 200px;
+
+  width: 180px;
+  height: 180px;
+  right: 50px;
+  top: -90px;
+}
+
+body {
+  background-color: #5cdb95;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+tr:hover {
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #EDF5E1;
+}
+
+
+.info {
+  line-height: 60px;
+}
+
+
+.container {
+  margin: 0 auto;
+  padding: 0;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 60px;
+}
+
+/* Title */
+h1 {
+  color: #05386b;
+  font: 4vw 'ChunkFiveRegular';
+  text-align: center;
+}
+
+.slider {
+  -webkit-appearance: none;
+  /* Override default CSS styles */
+  appearance: none;
+  width: 100%;
+  /* Full-width */
+  height: 10px;
+  /* Specified height */
+  background: #EDF5E1;
+  /* Grey background */
+  outline: none;
+  /* Remove outline */
+  opacity: 0.7;
+  /* Set transparency (for mouse-over effects on hover) */
+  -webkit-transition: .2s;
+  /* 0.2 seconds transition on hover */
+  transition: opacity .2s;
+  align-content: center;
+  scroll-snap-type: x mandatory;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  /* Override default look */
+  appearance: none;
+  width: 30px;
+  /* Set a specific slider handle width */
+  height: 30px;
+  /* Slider handle height */
+  background: rgb(255, 255, 255);
+  border-style: solid;
+  border-color: rgb(17, 7, 7);
+  cursor: pointer;
+  /* Cursor on hover */
+  border-radius: 50%;
+}
+
+.slider::-webkit-slider-thumb:hover {
+  background: #05386b;
+}
+
+
+/* Mouse-over effects */
+.slider:hover {
+  opacity: 1;
+  /* Fully shown on mouse-over */
+}
+
+
+
+.ideal_hours>h2 {
+  color: azure;
+  text-align: center;
+  padding: 0;
+}
+
+p {
+  font-family: 'ChunkFiveRegular';
+  color: #05386b;
+  text-align: center;
+  font-size: 40px;
+  margin: 10px;
+}
+
+
+h4 {
+  font-family: 'ChunkFiveRegular';
+  font-size: 40px;
+  color: #05386b;
+  text-align: center;
+
+}
+
+button {
+  background-color: #05386b;
+  border-radius: 10px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  font-family: 'ChunkFiveRegular';
+  font-size: 20px;
+}
+
+/* Day Column */
+td:nth-child(n) {
+  font-family: 'ChunkFiveRegular';
+  color: #05386b;
+  text-align: center;
+  font-size: 30px;
+  width: 15%;
+}
+
+/* Range Column */
+td:nth-child(2) {
+  font-family: 'ChunkFiveRegular';
+  text-align: center;
+  font-size: 30px;
+  width: 60%;
+}
+
+/* Hours Column */
+td:nth-child(3) {
+  font-family: 'ChunkFiveRegular';
+  text-align: center;
+  font-size: 30px;
+  width: 15%;
+  padding: 0;
+}
