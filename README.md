@@ -1,5 +1,9 @@
 <h1>Sleep Calculator</h1>
 
+<h3>Link</h3>
+
+https://arthurfincham.github.io/sleepcalculator/
+
 <h3>Description</h3>
 
 In this project I took some JS script used in a *Codecademy* lesson and tried to bring it to life.
@@ -23,7 +27,8 @@ The project started with a simple gradient background, but I found this [cloud a
 Finally, I found a font (*ChunkFive-Regular*) I liked and used *@fontface* to bring it to the project.
 
 <h3>Problems</h3>
-*Some things to work on next time.*
+
+*Some things to work on next time...*
 
 
 <ul>
@@ -32,8 +37,4 @@ Finally, I found a font (*ChunkFive-Regular*) I liked and used *@fontface* to br
   <li>Mobile formatting.</li>
  </ul>
  
-<h3>Link</h3>
-
-https://arthurfincham.github.io/sleepcalculator/
-
 
