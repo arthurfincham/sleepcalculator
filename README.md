@@ -22,6 +22,16 @@ The project started with a simple gradient background, but I found this [cloud a
 
 Finally, I found a font (*ChunkFive-Regular*) I liked and used *@fontface* to bring it to the project.
 
+<h3>Problems</h3>
+*Some things to work on next time.*
+
+
+<ul>
+  <li>JS script is within the HTML file.</li>
+  <li>App is not responsive to changes in window size.</li>
+  <li>Mobile formatting.</li>
+ </ul>
+ 
 <h3>Link</h3>
 
 https://arthurfincham.github.io/sleepcalculator/
