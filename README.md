@@ -20,6 +20,8 @@ Once the HTML and JS was working, I spent a *long* time playing around with CSS 
 
 The project started with a simple gradient background, but I found this [cloud animation](https://codepen.io/P3R0/pen/RPbgaX) which makes it a little more interesting.
 
+Finally, I found a font (*ChunkFive-Regular*) I liked and used *@fontface* to bring it to the project.
+
 <h3>Link</h3>
 
 https://arthurfincham.github.io/sleepcalculator/
