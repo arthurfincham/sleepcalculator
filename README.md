@@ -1,5 +1,9 @@
 <h1>Sleep Calculator</h1>
 
+https://img.shields.io/github/last-commit/arthurfincham/sleepcalculator
+https://img.shields.io/github/languages/count/arthurfincham/sleepcalculator
+https://img.shields.io/github/languages/code-size/arthurfincham/sleepcalculator
+
 <h3>Link</h3>
 
 https://arthurfincham.github.io/sleepcalculator/
