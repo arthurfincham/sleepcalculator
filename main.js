@@ -58,7 +58,7 @@ sun_slider.oninput = function () {
 function myFunction() {
 
   var idealHours = +(idl_slider.value) * 7
-
+  
   var totalSleep = +(mon_slider.value) + +(tue_slider.value) + +(wed_slider.value) + +(thu_slider.value) + +(
     fri_slider.value) + +(sat_slider.value) + +(sun_slider.value)
 
