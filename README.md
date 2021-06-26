@@ -22,7 +22,8 @@ Eventually, I used these [range sliders](https://www.w3schools.com/howto/howto_j
 
 Then I built these in to the table which displays the app. 
 
-The JS script is within the HTML file - this is something I know to be bad form so in my next project I will try and work with distinct JS and HTML files.
+~~The JS script is within the HTML file - this is something I know to be bad form so in my next project I will try and work with distinct JS and HTML files.~~
+**edit** The HTML and JS have now been seperated.
 
 Once the HTML and JS was working, I spent a *long* time playing around with CSS to make it look nice. 
 
