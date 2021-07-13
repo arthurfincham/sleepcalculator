@@ -1,3 +1,7 @@
+({
+  "plugins": ["jsdom-quokka-plugin"]
+})
+
 // Ideal Hours
 var idl_slider = document.getElementById("idl_myRange");
 var idl_output = document.getElementById("idl_hrs");

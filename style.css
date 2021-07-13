@@ -12,9 +12,11 @@
 .content {
   position: relative;
   z-index: 100;
-  width: 50%;
+  width: 80vw;
   margin: 0 auto;
 }
+
+/* #region  CLOUDS */
 
 .background {
   position: absolute;
@@ -177,6 +179,8 @@
   top: -90px;
 }
 
+/* #endregion */
+
 body {
   background-color: #5cdb95;
   background-size: cover;
@@ -191,7 +195,7 @@ tr:hover {
 
 
 .info {
-  line-height: 60px;
+  font-size: 1em !important;
 }
 
 
@@ -209,9 +213,12 @@ tr:hover {
 /* Title */
 h1 {
   color: #05386b;
-  font: 4vw 'ChunkFiveRegular';
+  font: 2em 'ChunkFiveRegular';
   text-align: center;
+  margin: 1vh;
 }
+
+/* #region  SLIDER */
 
 .slider {
   -webkit-appearance: none;
@@ -238,9 +245,9 @@ h1 {
   -webkit-appearance: none;
   /* Override default look */
   appearance: none;
-  width: 30px;
+  width: 1.5em;
   /* Set a specific slider handle width */
-  height: 30px;
+  height: 1.5em;
   /* Slider handle height */
   background: rgb(255, 255, 255);
   border-style: solid;
@@ -261,6 +268,8 @@ h1 {
   /* Fully shown on mouse-over */
 }
 
+/* #endregion */
+
 
 
 .ideal_hours>h2 {
@@ -273,14 +282,14 @@ p {
   font-family: 'ChunkFiveRegular';
   color: #05386b;
   text-align: center;
-  font-size: 40px;
+  font-size: 2em;
   margin: 10px;
 }
 
 
 h4 {
   font-family: 'ChunkFiveRegular';
-  font-size: 40px;
+  font-size: 2em;
   color: #05386b;
   text-align: center;
 
@@ -290,10 +299,10 @@ button {
   background-color: #05386b;
   border-radius: 10px;
   color: white;
-  padding: 15px 32px;
+  padding: 3;
   text-align: center;
   font-family: 'ChunkFiveRegular';
-  font-size: 20px;
+  font-size: 1em;
 }
 
 /* Day Column */
@@ -301,23 +310,27 @@ td:nth-child(n) {
   font-family: 'ChunkFiveRegular';
   color: #05386b;
   text-align: center;
-  font-size: 30px;
-  width: 15%;
+  font-size: 1em;
+  width: 10%;
 }
 
 /* Range Column */
 td:nth-child(2) {
   font-family: 'ChunkFiveRegular';
   text-align: center;
-  font-size: 30px;
-  width: 60%;
+  font-size: 1.5em;
+  width: 80%;
 }
 
 /* Hours Column */
 td:nth-child(3) {
   font-family: 'ChunkFiveRegular';
   text-align: center;
-  font-size: 30px;
-  width: 15%;
+  font-size: 0.8em;
+  width: 10%;
   padding: 0;
+}
+
+tbody {
+  line-height: 4vh;
 }
